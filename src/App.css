@@ -2,9 +2,30 @@
   text-align: center;
 }
 
+a{text-decoration: none;}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.navbar-brand{
+  margin-right: 5vw;
+}
+
+nav{height: 60px;}
+
+.logo{margin-right:8vw; color: #fff;}
+.logo:hover{color: #fff;}
+.navbar-nav a{margin-right:4vw; color: #fff;}
+.navbar-nav a:hover{color: #fff;}
+.navbar-nav a:last-child{margin-right:0;}
+
+.main-banner{
+  height: 50vw;
+  background: url(./banner.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
