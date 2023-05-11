@@ -45,7 +45,7 @@ function App() {
           <Route path="one" element={"123"}></Route>
           <Route path="two" element={"4567"}></Route>
         </Route>
-      </Routes>123
+      </Routes>
 
     </div>
   );
