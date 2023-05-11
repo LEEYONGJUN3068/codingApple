@@ -1,3 +1,4 @@
+//123
 //import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -44,7 +45,7 @@ function App() {
           <Route path="one" element={"123"}></Route>
           <Route path="two" element={"4567"}></Route>
         </Route>
-      </Routes>123
+      </Routes>
 
     </div>
   );
