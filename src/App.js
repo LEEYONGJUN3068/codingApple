@@ -42,7 +42,7 @@ function App() {
         <Route path="/company" element={ <Company></Company> }/>
         <Route path='/event' element={ <Event></Event> }>
           <Route path="one" element={"123"}></Route>
-          <Route path="two" element={"456"}></Route>
+          <Route path="two" element={"4567"}></Route>
         </Route>
       </Routes>123
 
