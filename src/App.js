@@ -14,9 +14,10 @@ import styled from 'styled-components';
 import { useParams } from "react-router-dom";
 
 let YellowBtn = styled.button`
-  background : yellow;
-  color : black;
-  padding : 10px;
+  background : ${props => props.bg};
+  color : ${props => props.bg === "yellow" ? "red" : "black"};
+  padding : 0px;
+  lineHeight : 10px;
 `
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
             <Link to="/detail">제품</Link>
             <Link to="/company">회사소개</Link>
             <Link to="/event">이벤트</Link>
+            <YellowBtn bg="yellow">스타일 버튼</YellowBtn>
+            <YellowBtn bg="orange">스타일 버튼</YellowBtn>
           </Nav>
         </Container>
       </Navbar>
